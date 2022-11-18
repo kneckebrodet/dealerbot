@@ -25,7 +25,7 @@ PWM2 = GPIO.PWM(pwmPin[1], freqWheel)
 PWM1.start(0)
 PWM2.start(0)
 
-##### SET DIRECTION (WHEELS) & START POSITION VALUE #####
+##### SET DIRECTION (WHEELS) & START-POSITION #####
 GPIO.output(engPin[0], False)
 GPIO.output(engPin[1], True)
 GPIO.output(engPin[2], False)
