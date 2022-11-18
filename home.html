@@ -4,30 +4,34 @@
 <html>
 <body style="background-color:white;">
 
+<!-- CREATING THE BUTTONS FOR EACH PLAYER-->
+
 <p style="color:red; font-size: 200%">PLAYER 1:
 <a data-playernumber="1" href="">
 <button style="font-size: 150%;background-color: lightgrey">CARD</button></a>
 
 <p style="color:blue; font-size: 200%">PLAYER 2:
-<a data-playernumber="2" href="http://0.0.0.0:5000/player/2/card/1">
+<a data-playernumber="2" href="">
 <button style="font-size: 150%;background-color: lightgrey">CARD</button></a>
 
 <p style="color:green; font-size: 200%">PLAYER 3:
-<a data-playernumber="3" href="http://0.0.0.0:5000/player/3/card/1">
+<a data-playernumber="3" href="">
 <button style="font-size: 150%;background-color: lightgrey">CARD</button></a>
 
 <p style="color:yellow; font-size: 200%">PLAYER 4:
-<a data-playernumber="4" href="http://0.0.0.0:5000/player/4/card/1">
+<a data-playernumber="4" href="">
 <button style="font-size: 150%;background-color: lightgrey">CARD</button></a>
 
+<!-- CREATING THE RETURN BUTTON-->
+    
 <p style="color:black; font-size: 200%">
 <a data-playernumber="0" href="http://0.0.0.0:5000/player/0/card/0">
 <button style="font-size: 150%;background-color: lightgrey">RETURN</button></a>
 
 </body>
 
+    <!--SCRIPT FOR EASY URL SWITCH FOR THE BUTTONS-->
 <script>
-    
     let link = document.querySelectorAll('[data-playernumber]');
     let playernumber = link[0].dataset.playernumber;
     let server = "http://0.0.0.0:5000";
