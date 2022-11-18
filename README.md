@@ -20,18 +20,13 @@
 
 - FLASKのウェブアプリケーションにWIFIで繋げて、プレイヤーがスマホで1つのボタンを押すだけで
   ディーラーボットは選ばれたプレイヤーに移動して適当な枚数を配ってくれる。
-- 今度の[書いたコードは](https://github.com/kneckebrodet/dealerbot/blob/main/dealerbot.py)
+- 今度の書いた[コード](https://github.com/kneckebrodet/dealerbot/blob/main/dealerbot.py)は真っ直ぐに前向きと後ろ向きに移動しているが、
+  自分が好きな方向や各ゲームのための動き方を簡単に設定することができる。
 
-## Workflow of the Project
+## プロジェクトの作り方手順
 
-- When the simulation is started, and any one of previous and next button is pressed the DC motor changes it's direction      accordingly.
-- If next button is pressed, it will rotate clockwise. And if previous button is pressed, it will rotate anti-clockwise.
-
-
-## Setup instructions
-
-- Use Tinkercad
-- Setup a circuit as shown in the circuit diagram in images folder
+- FLASK のライブラリをラズベリーパイにインストールする （ターミナルで「pip install flask」) 
+- [回路を組み合わせ]
 - Write the code as given
 - Start simulation
 - Press the next button on IR remote
