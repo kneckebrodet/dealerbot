@@ -1,6 +1,6 @@
 ## IMPORT FLASK LIBRARY FOR WEBAPPLICATION
 from flask import Flask, render_template
-## IMPORT RASPBERRY PI & TIME LIBRARY
+## IMPORT RASPBERRY PI PINS & TIME LIBRARY
 import RPi.GPIO as GPIO
 from time import sleep
 
