@@ -27,26 +27,24 @@
 ## プロジェクトの作り方手順
 
 - FLASK のライブラリをラズベリーパイにインストールする （ターミナルで「pip install flask」) 
-- [回路を組み合わせ](https://github.com/kneckebrodet/dealerbot/blob/main/%E5%9B%9E%E8%B7%AF%E7%94%BB%E5%83%8F/DualMotors.jpg)
-- 作った回路とディーラーボットの下部分を組み合わせる
-- [ディーラーアームの回路を組み合わせ]
-- ディーラーボットの上部分を組み合わせる
+- [1番目の回路を組み合わせ](https://github.com/kneckebrodet/dealerbot/blob/main/%E5%9B%9E%E8%B7%AF%E7%94%BB%E5%83%8F/DualMotors.jpg)(タイヤのための回路)
+- 作った回路とディーラーボットの下部分を組み合わせ
+- [2番目の回路を組み合わせ](ディーラーアームのための回路)
+- ディーラーボットの上部分を組み合わせ
 -  [「HTMLコードを書く」](https://github.com/kneckebrodet/dealerbot/blob/main/home.html)と[「ソースコードを書く」](https://github.com/kneckebrodet/dealerbot/blob/main/dealerbot.py)
 
 
 ## 操作
 
+スマホでラズベリーパイとの同じWIFIをつなげて、http://0.0.0.0:5000/ のURLを入れて、ホームページのボタンで操作することができる
 
+## リンク
 
-//Click on view raw
+[ProtoPedia]:   https://protopedia.net/prototype/3484
 
-[Simulation Video]:   https://github.com/vaishnavighiradkar/Controll_dc_motor_using_IR/blob/main/simulation%20video.zip
+[ Source code (python) ] :     https://github.com/kneckebrodet/dealerbot/blob/main/dealerbot.py
+[ Source code (html) ] :       https://github.com/kneckebrodet/dealerbot/blob/main/home.html
 
-[ Source code ] :     https://github.com/vaishnavighiradkar/Controll_dc_motor_using_IR/blob/main/code.ino
+## 作者
 
-## Author
-
-[Vaishnavi Ghiradkar] : https://github.com/vaishnavighiradkar
-
-
-
+[Kneckebrodet] : https://github.com/kneckebrodet
