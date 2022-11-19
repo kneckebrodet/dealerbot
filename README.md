@@ -41,11 +41,14 @@
 
 ## リンク
 
-[ ProtoPedia ] :   https://protopedia.net/prototype/3484
+[ ProtoPedia ] :               https://protopedia.net/prototype/3484
 
 [ Source code (python) ] :     https://github.com/kneckebrodet/dealerbot/blob/main/dealerbot.py
 
 [ Source code (html) ] :       https://github.com/kneckebrodet/dealerbot/blob/main/home.html
+
+[ Circuit (Dual DC-MOTOR) ] :  https://github.com/kneckebrodet/dealerbot/blob/main/%E5%9B%9E%E8%B7%AF%E7%94%BB%E5%83%8F/DualMotors.jpg
+[ Circuit (DC-MOTOR ] :        https://github.com/kneckebrodet/dealerbot/blob/main/%E5%9B%9E%E8%B7%AF%E7%94%BB%E5%83%8F/DealerArm.jpg
 
 ## 作者
 
