@@ -26,7 +26,7 @@
 ## プロジェクトの作り方手順
 
 - FLASK のライブラリをラズベリーパイにインストールする （ターミナルで「pip install flask」) 
-- [回路を組み合わせ]
+- [回路を組み合わせ](https://github.com/kneckebrodet/dealerbot/blob/main/%E5%9B%9E%E8%B7%AF%E7%94%BB%E5%83%8F/DualMotors.jpg)
 - Write the code as given
 - Start simulation
 - Press the next button on IR remote
