@@ -7,6 +7,7 @@
 
 ## 必要なパーツ
 - ラズベリーパイ 4b
+- Anker PowerCore 10000
 - DCモーター　x3
 - L293Dドライバー x2
 - ブレッドボードや 基板＋はんだつけ　
@@ -27,19 +28,14 @@
 
 - FLASK のライブラリをラズベリーパイにインストールする （ターミナルで「pip install flask」) 
 - [回路を組み合わせ](https://github.com/kneckebrodet/dealerbot/blob/main/%E5%9B%9E%E8%B7%AF%E7%94%BB%E5%83%8F/DualMotors.jpg)
-- Write the code as given
-- Start simulation
-- Press the next button on IR remote
-- Observe rotational direction of DC motor
-- Now, press the previous button on IR remote
-- Observe the change in direction of DC motor.
+- 作った回路とディーラーボットの下部分を組み合わせる
+- [ディーラーアームの回路を組み合わせ]
+- ディーラーボットの上部分を組み合わせる
+-  [「HTMLコードを書く」](https://github.com/kneckebrodet/dealerbot/blob/main/home.html)と[「ソースコードを書く」](https://github.com/kneckebrodet/dealerbot/blob/main/dealerbot.py)
 
 
-## Output
+## 操作
 
-
-
-[circuit diagram]:    https://github.com/vaishnavighiradkar/Controll_dc_motor_using_IR/blob/main/circuit%20diagram.png
 
 
 //Click on view raw
