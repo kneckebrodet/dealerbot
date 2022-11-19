@@ -1,18 +1,18 @@
-##### IMPORT FLASK LIBRARY FOR WEBAPPLICATION #####
+## IMPORT FLASK LIBRARY FOR WEBAPPLICATION
 from flask import Flask, render_template
-##### IMPORT RASPBERRY PI & TIME LIBRARY #####
+## IMPORT RASPBERRY PI & TIME LIBRARY
 import RPi.GPIO as GPIO
 from time import sleep
 
-##### SETUP INPUT/OUTPUT PINS #####
+## SETUP INPUT/OUTPUT PINS
 GPIO.setmode(GPIO.BCM)
 GPIO.setwarnings(False)
 
-##### VARIABLES TO CHANGE FREQUENCY FOR DC-MOTORS #####
+## VARIABLES TO CHANGE FREQUENCY FOR DC-MOTORS
 FREQWHEEL = 2000
 FREQARM = 50
 
-##### SETUP PINS FOR CATERPILLAR DUALMOTORS #####
+## SETUP PINS FOR CATERPILLAR DUALMOTORS
 engPin = [5, 6, 20, 13]
 pwmPin = [19, 12]
 
@@ -25,14 +25,14 @@ PWM2 = GPIO.PWM(pwmPin[1], freqWheel)
 PWM1.start(0)
 PWM2.start(0)
 
-##### SET DIRECTION (WHEELS) & START-POSITION #####
+## SET DIRECTION (WHEELS) & START-POSITION
 GPIO.output(engPin[0], False)
 GPIO.output(engPin[1], True)
 GPIO.output(engPin[2], False)
 GPIO.output(engPin[3], True)
 current_position = 0
 
-##### SETUP PINS FOR DEALERARM #####
+## SETUP PINS FOR DEALERARM
 armDir1 = 17
 armDir2 = 27
 armPWM = 18
@@ -43,11 +43,11 @@ GPIO.setup(armPWM, GPIO.OUT)
 pwm = GPIO.PWM(armPWM, freqArm)
 pwm.start(0)
 
-##### SET DIRECTION (ARM) #####
+## SET DIRECTION (ARM)
 GPIO.output(armDir1, True)
 GPIO.output(armDir2, False)
 
-##### DEFINE FUNCTION TO SET THE DIRECTION BEFORE MOVING #####
+## DEFINE FUNCTION TO SET THE DIRECTION BEFORE MOVING
 def set_direction(direction):
     if direction == 1:
         GPIO.output(engPin[0], True)
@@ -62,7 +62,7 @@ def set_direction(direction):
     else:
         print("Valid direction wasn't set")
 
-##### CREATE MOVE FUNCTION #####
+## CREATE MOVE FUNCTION
 def move(currentLocation, location):
     # If current location is less than target location: move forward
     # If current location is bigger than target location: move backwards
@@ -80,7 +80,7 @@ def move(currentLocation, location):
     PWM2.ChangeDutyCycle(0)
     sleep(0.5)
 
-##### CREATE RETURN TO STARTPOSITION FUNCTION #####
+## CREATE RETURN TO STARTPOSITION FUNCTION
 def reset_position(currentposition):
     set_direction(0)
     PWM1.ChangeDutyCycle(100)
@@ -90,7 +90,7 @@ def reset_position(currentposition):
     PWM2.ChangeDutyCycle(0)
     sleep(0.5)
 
-#START FLASK WEBAPPLICATION
+## START FLASK WEBAPPLICATION
 app = Flask(__name__)
 
 @app.route("/")
