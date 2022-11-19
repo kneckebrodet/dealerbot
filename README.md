@@ -30,7 +30,7 @@
 - FLASK のライブラリをラズベリーパイにインストールする （ターミナルで「pip install flask」) 
 - [1番目の回路を組み合わせ](https://github.com/kneckebrodet/dealerbot/blob/main/%E5%9B%9E%E8%B7%AF%E7%94%BB%E5%83%8F/DualMotors.jpg)(タイヤのための回路)
 - 作った回路とディーラーボットの下部分を組み合わせ
-- [2番目の回路を組み合わせ](ディーラーアームのための回路)
+- [2番目の回路を組み合わせ](https://github.com/kneckebrodet/dealerbot/blob/main/%E5%9B%9E%E8%B7%AF%E7%94%BB%E5%83%8F/DealerArm.jpg)(ディーラーアームのための回路)
 - ディーラーボットの上部分を組み合わせ
 -  [「HTMLコードを書く」](https://github.com/kneckebrodet/dealerbot/blob/main/home.html)と[「ソースコードを書く」](https://github.com/kneckebrodet/dealerbot/blob/main/dealerbot.py)
 
