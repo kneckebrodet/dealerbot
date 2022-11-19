@@ -47,7 +47,7 @@ pwm.start(0)
 GPIO.output(armDir1, True)
 GPIO.output(armDir2, False)
 
-## DEFINE FUNCTION TO SET THE DIRECTION BEFORE MOVING
+## DEFINE FUNCTION TO SET THE DIRECTION
 def set_direction(direction):
     if direction == 1:
         GPIO.output(engPin[0], True)
@@ -62,7 +62,7 @@ def set_direction(direction):
     else:
         print("Valid direction wasn't set")
 
-## CREATE MOVE FUNCTION
+## DEFINE MOVE FUNCTION
 def move(currentLocation, location):
     # If current location is less than target location: move forward
     # If current location is bigger than target location: move backwards
