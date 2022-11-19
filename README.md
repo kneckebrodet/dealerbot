@@ -20,7 +20,7 @@
 
 - FLASKのウェブアプリケーションにWIFIで繋げて、プレイヤーがスマホで1つのボタンを押すだけで
   ディーラーボットは選ばれたプレイヤーに移動して適当な枚数を配ってくれる。
-- 今度の書いた[コード](https://github.com/kneckebrodet/dealerbot/blob/main/dealerbot.py)は真っ直ぐに前向きと後ろ向きに移動しているが、
+- 今度の書いた[「コード」](https://github.com/kneckebrodet/dealerbot/blob/main/dealerbot.py)は真っ直ぐに前向きと後ろ向きに移動しているが、
   自分が好きな方向や各ゲームのための動き方を簡単に設定することができる。
 
 ## プロジェクトの作り方手順
