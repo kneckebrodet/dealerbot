@@ -17,13 +17,13 @@
 - ディーラーボットのボディを作るためのマテリアル
 
 
-
 ## 動き方
 
 - FLASKのウェブアプリケーションにWIFIで繋げて、プレイヤーがスマホで1つのボタンを押すだけで
   ディーラーボットは選ばれたプレイヤーに移動して適当な枚数を配ってくれる。
 - 今度の書いた[「コード」](https://github.com/kneckebrodet/dealerbot/blob/main/dealerbot.py)は真っ直ぐに前向きと後ろ向きに移動しているが、
   自分が好きな方向や各ゲームのための動き方を簡単に設定することができる。
+
 
 ## プロジェクトの作り方手順
 
@@ -39,6 +39,7 @@
 
 スマホでラズベリーパイとの同じWIFIをつなげて、"http://0.0.0.0:5000/" のURLを入れて、ホームページのボタンで操作をすることができる
 
+
 ## リンク
 
 [ ProtoPedia ] :               https://protopedia.net/prototype/3484
@@ -47,8 +48,6 @@
 
 [ Source code (html) ] :       https://github.com/kneckebrodet/dealerbot/blob/main/home.html
 
-[ Circuit (Dual DC-MOTOR) ] :  https://github.com/kneckebrodet/dealerbot/blob/main/%E5%9B%9E%E8%B7%AF%E7%94%BB%E5%83%8F/DualMotors.jpg
-[ Circuit (DC-MOTOR ] :        https://github.com/kneckebrodet/dealerbot/blob/main/%E5%9B%9E%E8%B7%AF%E7%94%BB%E5%83%8F/DealerArm.jpg
 
 ## 作者
 
