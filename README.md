@@ -43,6 +43,7 @@
 [ProtoPedia]:   https://protopedia.net/prototype/3484
 
 [ Source code (python) ] :     https://github.com/kneckebrodet/dealerbot/blob/main/dealerbot.py
+
 [ Source code (html) ] :       https://github.com/kneckebrodet/dealerbot/blob/main/home.html
 
 ## 作者
